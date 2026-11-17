@@ -1,0 +1,54 @@
+[theme]
+base = "light"
+primaryColor = "#1769AA"
+backgroundColor = "#F7F8FA"
+secondaryBackgroundColor = "#EEF2F6"
+textColor = "#202B38"
+linkColor = "#1769AA"
+borderColor = "#DCE2E9"
+showWidgetBorder = true
+baseRadius = "3px"
+buttonRadius = "3px"
+baseFontSize = 14
+font = "Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+headingFont = "Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+codeFont = "'IBM Plex Mono', Consolas, monospace"
+codeBackgroundColor = "#EEF2F6"
+dataframeHeaderBackgroundColor = "#F2F5F8"
+chartCategoricalColors = ["#1769AA", "#16A6A1", "#E6A23C", "#7A5CC2", "#D1495B", "#4F6D7A"]
+
+# Fonts are self-hosted (static/) so the app looks identical without internet access.
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter.woff2"
+weight = "100 900"
+
+[[theme.fontFaces]]
+family = "IBM Plex Mono"
+url = "app/static/IBMPlexMono-400.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "IBM Plex Mono"
+url = "app/static/IBMPlexMono-500.woff2"
+weight = 500
+
+[[theme.fontFaces]]
+family = "IBM Plex Mono"
+url = "app/static/IBMPlexMono-600.woff2"
+weight = 600
+
+[server]
+# Only this computer can open the app (the page shows a live webcam feed).
+address = "localhost"
+maxUploadSize = 400
+runOnSave = false
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false

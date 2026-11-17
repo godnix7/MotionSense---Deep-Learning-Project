@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dataset (download + preprocess with the scripts in data/)
+datasets/
+
+# Dataset-derived videos (regenerate: python -m data.samples / python -m data.make_test_data)
+samples/
+test_data/*.mp4
+
+# Experiment checkpoints (the selected model checkpoints/motionsense_best.pt is kept)
+checkpoints/exp_*.pt
+checkpoints/*_card.json
+
+# Local tooling
+.claude/
+.vscode/
+.idea/
+*.log

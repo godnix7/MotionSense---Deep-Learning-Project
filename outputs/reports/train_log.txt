@@ -1,0 +1,24 @@
+Using GPU: NVIDIA GeForce RTX 4050 Laptop GPU (torch 2.8.0+cu128, CUDA 12.8)
+Train videos: 412  Val videos: 87  (test videos held out: 199)
+Parameters: {'total': 4353078, 'trainable': 3560590, 'backbone': 2971952, 'lstm': 1247232, 'head': 133894}
+epoch 01/20 | train loss 1.4604 acc 0.485 | val loss 1.0928 clip-acc 0.598 video-acc 0.598 F1 0.611 | 120s *
+epoch 02/20 | train loss 0.5881 acc 0.950 | val loss 0.9816 clip-acc 0.682 video-acc 0.701 F1 0.702 | 9s *
+epoch 03/20 | train loss 0.4935 acc 0.983 | val loss 0.8413 clip-acc 0.716 video-acc 0.713 F1 0.703 | 8s *
+epoch 04/20 | train loss 0.4570 acc 0.995 | val loss 0.8284 clip-acc 0.751 video-acc 0.782 F1 0.777 | 9s *
+epoch 05/20 | train loss 0.4440 acc 0.997 | val loss 0.8281 clip-acc 0.720 video-acc 0.724 F1 0.729 | 8s 
+epoch 06/20 | train loss 0.4438 acc 0.997 | val loss 0.8084 clip-acc 0.739 video-acc 0.724 F1 0.732 | 8s 
+epoch 07/20 | train loss 0.4372 acc 0.999 | val loss 0.9178 clip-acc 0.713 video-acc 0.724 F1 0.729 | 8s 
+epoch 08/20 | train loss 0.4348 acc 0.999 | val loss 0.9364 clip-acc 0.716 video-acc 0.747 F1 0.740 | 8s 
+epoch 09/20 | train loss 0.4338 acc 0.999 | val loss 0.8792 clip-acc 0.724 video-acc 0.701 F1 0.711 | 8s 
+epoch 10/20 | train loss 0.4349 acc 0.998 | val loss 0.8035 clip-acc 0.766 video-acc 0.770 F1 0.771 | 8s 
+epoch 11/20 | train loss 0.4342 acc 0.998 | val loss 0.8497 clip-acc 0.732 video-acc 0.736 F1 0.743 | 8s 
+epoch 12/20 | train loss 0.4304 acc 1.000 | val loss 0.8756 clip-acc 0.724 video-acc 0.736 F1 0.744 | 8s 
+epoch 13/20 | train loss 0.4301 acc 1.000 | val loss 0.8395 clip-acc 0.739 video-acc 0.736 F1 0.743 | 8s 
+epoch 14/20 | train loss 0.4314 acc 0.999 | val loss 0.8121 clip-acc 0.751 video-acc 0.770 F1 0.773 | 8s 
+epoch 15/20 | train loss 0.4295 acc 1.000 | val loss 0.8279 clip-acc 0.755 video-acc 0.770 F1 0.775 | 8s 
+epoch 16/20 | train loss 0.4293 acc 1.000 | val loss 0.8436 clip-acc 0.751 video-acc 0.736 F1 0.743 | 8s 
+epoch 17/20 | train loss 0.4314 acc 0.999 | val loss 0.8262 clip-acc 0.762 video-acc 0.770 F1 0.774 | 8s 
+epoch 18/20 | train loss 0.4292 acc 1.000 | val loss 0.8240 clip-acc 0.766 video-acc 0.759 F1 0.763 | 8s 
+epoch 19/20 | train loss 0.4287 acc 1.000 | val loss 0.8253 clip-acc 0.762 video-acc 0.770 F1 0.774 | 8s 
+epoch 20/20 | train loss 0.4291 acc 1.000 | val loss 0.8326 clip-acc 0.759 video-acc 0.747 F1 0.752 | 8s 
+Done in 4.6 min. Best val macro-F1 0.777. Checkpoint: C:\Users\nisch\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\9af6c7f7-de74-43c3-b830-3bd940c565c3\1559adf5-0f85-48d6-bd25-fd00b9f2f08b\scratch-2026-11-13-201004\motionsense\checkpoints\motionsense_best.pt

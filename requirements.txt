@@ -1,0 +1,18 @@
+# PyTorch with CUDA 12.8 (GPU). Installing plain "torch" from PyPI on Windows gives a CPU-only build.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0
+torchvision==0.23.0
+
+opencv-python-headless>=4.9
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+streamlit>=1.46
+streamlit-webrtc>=0.62
+av>=12
+plotly>=5.20
+matplotlib>=3.8
+psutil>=5.9
+nvidia-ml-py>=12.0
+requests>=2.31
+tqdm>=4.66
